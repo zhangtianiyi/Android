@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"  
+        android:layout_weight="20"
+        android:layout_height="0px"
+         >
+         <!--  android:layout_height="wrap_content"-->
+        </ListView>
+
+    	 <LinearLayout
+            android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+			android:layout_height="0px"
+            android:orientation="horizontal" >
+            <!-- android:layout_height="wrap_content" -->
+    	     
+    	     <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                />
+    	     
+            <ImageView 
+                android:id="@+id/image_view1"
+                android:layout_height="15dip"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/blacklong"
+                android:clickable = "true"
+                 />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                />
+            
+            <TextView
+                android:id="@+id/text_view1"
+                android:layout_height="15dip"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                
+                android:clickable = "true"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                />
+            
+            <ImageView
+                android:id="@+id/imge_view3"
+                android:layout_height="15dip"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/divi"
+                android:clickable = "true"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="0dp"
+                />
+            
+                <TextView
+                android:id="@+id/text_view2"
+                android:layout_height="15dip"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                
+                android:clickable = "true"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                />
+            
+                <ImageView
+                android:id="@+id/imge_view5"
+                android:layout_height="15dip"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/divi"
+                android:clickable = "true"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                />
+            
+             <ImageView
+                android:id="@+id/image_view6"
+                android:layout_height="15dip"
+                android:layout_width="wrap_content"
+                android:layout_weight="2"
+                android:src="@drawable/add"
+                android:clickable = "true"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="0dp"
+                />
+             <ImageView
+                android:id="@+id/imge_view7"
+                android:layout_height="15dip"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/divi"
+                android:clickable = "true"
+                />
+             <View
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="0dp"
+                />
+            
+            <ImageView
+                android:id="@+id/image_view8"
+                android:layout_marginTop="5dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+				android:layout_width="wrap_content"
+                android:src="@drawable/blacklong2"
+                android:clickable = "true"
+                 />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="8"
+                android:layout_height="0dp"
+                />
+            
+            </LinearLayout>
+    
+</LinearLayout>

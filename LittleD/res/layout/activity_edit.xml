@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    >
+    
+   <LinearLayout
+      		android:layout_marginTop="12dip"
+            android:id="@+id/showup2"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="3"
+            android:orientation="horizontal" >
+   
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="0dp"
+            />
+    	     
+        <TextView 
+       	    android:id="@+id/show_week2"
+            android:layout_height="20dip"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+        
+        <ImageView
+                android:layout_height="20dip"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/divi2"
+                />
+        
+        <TextView 
+       	    android:id="@+id/show_month2"
+            android:layout_height="20dip"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="0dp"
+            />
+        
+        <TextView 
+       	    android:id="@+id/show_day2"
+            android:layout_height="20dip"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+        
+        
+         <ImageView
+                android:layout_height="20dip"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/divi2"
+                />
+         
+          <TextView 
+       	    android:id="@+id/show_year2"
+            android:layout_height="20dip"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+        
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="0dp"
+            />
+       
+   </LinearLayout>
+  
+    <ImageView
+        android:layout_height="0px"
+        android:layout_weight="0.8"
+       	android:gravity="center"
+        android:layout_width="400dip"
+        android:src="@drawable/longlong"
+        />
+    
+
+	 <!-- 
+	
+	 <LinearLayout
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="1dip"
+	        >
+	
+	 -->
+	<EditText
+	    android:layout_weight="30"
+	    android:layout_marginLeft="20dip"
+	    android:layout_marginRight="20dip"
+	    android:id = "@+id/edit_text"
+	    android:layout_width="match_parent"
+	    android:layout_height="0px"
+	    />
+		
+	
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dip"
+	    android:layout_marginRight="20dip"
+        >
+        <ImageView
+            android:src="@drawable/clock"
+            android:id="@+id/idclock"
+            android:layout_height="20dip"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:clickable = "true"
+            />
+        <View
+            android:layout_height="20dip"
+            android:layout_width="wrap_content"
+            android:layout_weight="8"
+            />
+        <ImageView
+            android:src="@drawable/done"
+            android:id="@+id/iddone"
+            android:layout_height="20dip"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:clickable = "true"
+            />
+        
+        </LinearLayout>
+	
+</LinearLayout>
